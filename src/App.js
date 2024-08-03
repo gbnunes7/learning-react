@@ -45,7 +45,6 @@ function App(props) {
   const[colaboradores,setColaborador] = useState([])
   const aoColaboradorNovoCadastrado = (colaborador) => {
     setColaborador([...colaboradores,colaborador])
-    console.log([...colaboradores,colaborador])
   }
   
   return (

@@ -12,6 +12,7 @@ export default function ListaSuspensa(props) {
         <div className='lista-suspensa'>
             <label>{props.label}</label>
             <select onChange={aoDigitado} valor={props.valor}>
+            <option vlaor=""></option>
             {props.itens.map(item => (
                     <option key={item}>{item}</option>
                 ))}

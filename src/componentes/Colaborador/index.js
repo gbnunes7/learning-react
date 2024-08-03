@@ -2,8 +2,8 @@ import './colaborador.css'
 
 export default function Colaborador(props) {
     return (
-        <div className='colaborador'>
-            <div className='cabecalho'>
+        <div className='colaborador' >
+            <div className='cabecalho' style={{backgroundColor: props.corPrimaria}}>
                 <img src={props.imagem} alt={props.nome} />
             </div>
             <div className='rodape'>
